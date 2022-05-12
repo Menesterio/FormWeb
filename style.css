@@ -1,0 +1,19 @@
+h1{
+
+}
+body{
+    font-family: Arial;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+input{
+    display: block;
+}
