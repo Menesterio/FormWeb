@@ -42,7 +42,7 @@
         }
     </script>
     <h1></h1>
-    <form class="form" method="POST" action="http://localhost/Formul%C3%A1rio/enviar.php">
+    <form class="form" method="POST" action="http://localhost/FormWeb/enviar.php">
         <fieldset>
             <h2 id="ssss">aaaaa</h2>
             <p>Latitude</p>

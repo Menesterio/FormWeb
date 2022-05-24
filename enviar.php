@@ -45,7 +45,7 @@ $results = mysqli_query($link, "INSERT INTO reports(lat, lon, pol) VALUES ($lat,
 </body>
 <script>
     function goToInicio() {
-        window.location.href = "http://localhost/Formul%C3%A1rio/inicio.html";
+        window.location.href = "http://localhost/FormWeb/inicio.html";
     }
 </script>
 
