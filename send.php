@@ -40,12 +40,12 @@ $results = mysqli_query($link, "INSERT INTO reports(lat, lon, pol) VALUES ($lat,
 </head>
 
 <body>
-    <h1>Formulário enviado com sucesso</h1>
-    <button type="submit" onClick="goToInicio()">Inicio</button>
+    <h1>form sent successfully</h1>
+    <button type="submit" onClick="goToMain()">Main</button>
 </body>
 <script>
-    function goToInicio() {
-        window.location.href = "http://localhost/FormWeb/inicio.html";
+    function goToMain() {
+        window.location.href = "http://localhost/FormWeb/main.html";
     }
 </script>
 

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Formulário</title>
+    <title>Form</title>
 </head>
 
 <body>
@@ -42,21 +42,21 @@
         }
     </script>
     <h1></h1>
-    <form class="form" method="POST" action="http://localhost/FormWeb/enviar.php">
+    <form class="form" method="POST" action="http://localhost/FormWeb/Send.php">
         <fieldset>
-            <h2 id="ssss">aaaaa</h2>
+            <h2 id="ssss">Form</h2>
             <p>Latitude</p>
             <input type="number" step="any" value="" name="lat" id="lat" min="-90" max="90" required>
             <p>Longitude</p>
             <input type="number" step="any" value="" name="lon" id="lon" min="-180" max="180" required>
-            <p>Nível de poluição luminosa</p>
+            <p>Light polution level</p>
             <span id="val">4</span><input type="range" class="slider" name="pol" id="pol" min="0" max="7" onchange="slider()" required>
         </fieldset>
-        <button type="button" onClick="find()">Localizar</button>
-        <button type="submit" onClick="clicar()">Enviar</button>
+        <button type="button" onClick="find()">Locate</button>
+        <button type="submit" onClick="click()">Send</button>
     </form>
     <script>
-        function clicar() {
+        function click() {
 
         }
     </script>

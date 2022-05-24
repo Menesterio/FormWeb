@@ -22,15 +22,15 @@ $con = $link->query($consulta) or die($link->error);
 </head>
 
 <body>
-    <h1>Lista</h1>
+    <h1>List</h1>
 
     <table border="1">
         <tr>
             <td>ID</td>
-            <td>Hora</td>
+            <td>Time</td>
             <td>Latitude</td>
             <td>Longuitude</td>
-            <td>Nivel de poluição</td>
+            <td>Light Polution level</td>
         </tr>
         <?php while ($dado = $con->fetch_array()) { ?>
             <tr>
